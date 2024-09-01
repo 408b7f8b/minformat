@@ -9,4 +9,9 @@
   <ItemGroup
     ><PackageReference Include="System.IO.Hashing" Version="8.0.0" />
   </ItemGroup>
+
+  <PropertyGroup>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
+  </PropertyGroup>
 </Project>
